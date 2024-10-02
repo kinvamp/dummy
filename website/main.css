@@ -1,0 +1,265 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #161b22;
+    padding: 1rem 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #58a6ff;
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #c9d1d9;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #58a6ff;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #0d1117;
+    padding: 5rem 0;
+    text-align: center;
+    border-bottom: 1px solid #30363d;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    color: #58a6ff;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #238636;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2ea043;
+}
+
+/* About Section */
+.about-section {
+    background-color: #161b22;
+    padding: 3rem 0;
+    text-align: center;
+    border-bottom: 1px solid #30363d;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #58a6ff;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+}
+
+/* History Section */
+.history-section {
+    background-color: #0d1117;
+    padding: 3rem 0;
+    text-align: center;
+    border-bottom: 1px solid #30363d;
+}
+
+.history-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #58a6ff;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timeline-item {
+    background-color: #161b22;
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    width: 60%;
+    border: 1px solid #30363d;
+}
+
+.timeline-item h3 {
+    color: #58a6ff;
+    font-size: 1.5rem;
+}
+
+.timeline-item p {
+    color: #c9d1d9;
+}
+
+/* Services Section */
+.services-section {
+    background-color: #161b22;
+    padding: 3rem 0;
+    text-align: center;
+    border-bottom: 1px solid #30363d;
+}
+
+.services-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #58a6ff;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #0d1117;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #30363d;
+    transition: transform 0.3s ease;
+}
+
+.card h3 {
+    color: #58a6ff;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    color: #c9d1d9;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #0d1117;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    color: #58a6ff;
+    margin-bottom: 1rem;
+}
+
+.contact-section p {
+    margin-bottom: 1.5rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 50%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #30363d;
+    border-radius: 5px;
+    background-color: #161b22;
+    color: #c9d1d9;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #58a6ff;
+    outline: none;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: none;
+}
+
+.contact-form button {
+    background-color: #238636;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #2ea043;
+}
+
+/* Footer */
+footer {
+    background-color: #161b22;
+    text-align: center;
+    padding: 1.5rem 0;
+    color: #c9d1d9;
+    font-size: 0.9rem;
+    border-top: 1px solid #30363d;
+}
+
+footer p {
+    margin: 0;
+}
